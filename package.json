@@ -1,0 +1,19 @@
+{
+  "name": "funnyjs",
+  "version": "1.0.0",
+  "description": "--逗逼码农的js代码应该是这样 --",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fy00xx00:fy00xx00yang@github.com/fy00xx00/funnycode.git"
+  },
+  "author": "lvxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fy00xx00/funnycode/issues"
+  },
+  "homepage": "https://github.com/fy00xx00/funnycode#readme"
+}
