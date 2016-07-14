@@ -1,6 +1,6 @@
 {
   "name": "funnyjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "--逗逼码农的js代码应该是这样 --",
   "main": "index.js",
   "scripts": {
