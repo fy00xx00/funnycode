@@ -26,5 +26,5 @@ gulp.src("./今天老板不在家/my.js").pipe(funnyjs()).pipe(gulp.dest("./funn
 
 
 ###
-
+逗逼的js代码，就就就是这样ヽ(≧□≦)ノ
 
