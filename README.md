@@ -1,2 +1,30 @@
-# funnycode
---逗逼码农的js代码应该是这样 --
+# funnyjs
+
+##安装
+```
+npm install funnyjs --save
+```
+
+##使用
+```javascript
+var funnyjs = require("funnyjs");
+
+var newRunableCode = funnyjs.encode("alert('hello!funnyjs')")
+
+//或者
+
+funnyjs.encodeFile("./今天老板不在家/my.js",function(err,res){
+    console.log(res);
+})
+
+
+//或者
+var gulp = require("gulp");
+gulp.src("./今天老板不在家/my.js").pipe(funnyjs()).pipe(gulp.dest("./funnycode"))
+
+```
+
+
+###
+
+
