@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/fy00xx00/funnycode/issues"
   },
-  "homepage": "https://github.com/fy00xx00/funnycode#readme"
+  "homepage": "https://github.com/fy00xx00/funnycode#readme",
+  "dependencies": {
+    "lxfileutil": "^1.0.1",
+    "through2": "^2.0.1"
+  }
 }
