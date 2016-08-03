@@ -13,18 +13,18 @@ var newRunableCode = funnyjs.encode("alert('hello!funnyjs')")
 
 //或者
 
-funnyjs.encodeFile("./今天老板不在家/my.js",function(err,res){
+funnyjs.encodeFile("./src/my.js",function(err,res){
     console.log(res);
 })
 
 
 //或者
 var gulp = require("gulp");
-gulp.src("./今天老板不在家/my.js").pipe(funnyjs()).pipe(gulp.dest("./funnycode"))
+gulp.src("./src/my.js").pipe(funnyjs()).pipe(gulp.dest("./funnycode"))
 
 ```
 
-###适用于少量代码
+###适用于少量代码 ,仅供娱乐，转码后体积会变大。
 
 ###逗逼的js代码，就就就是这样ヽ(≧□≦)ノ
 
